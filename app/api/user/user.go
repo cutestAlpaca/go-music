@@ -14,10 +14,6 @@ type SignUpRequest struct {
 	user.SignUpInput
 }
 
-func (c *Controller) Index(r *ghttp.Request) {
-	response.Json(r,200, "test")
-}
-
 // @summary 用户注册接口
 // @tags    用户服务
 // @produce json
